@@ -1,0 +1,13 @@
+server:
+  port : 8761
+
+eureka:
+  client:
+    registerwitheureka: false
+    fetchRegistry: false
+
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+  instance:
+    hostname: localhost
